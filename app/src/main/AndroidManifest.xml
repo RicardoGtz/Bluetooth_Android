@@ -17,6 +17,7 @@
             </intent-filter>            
         </activity>
     </application>
+    <!-- Se añaden los permisos para usar el bluetooth /-->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
 

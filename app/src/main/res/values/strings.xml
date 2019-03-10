@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PDM_16_RicardoGutierrez</string>
+    <string name="txtActivarBluetooth">Activar Bluetooth</string>
 </resources>
