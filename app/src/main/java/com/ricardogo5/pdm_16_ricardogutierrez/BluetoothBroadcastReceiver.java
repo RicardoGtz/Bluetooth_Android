@@ -29,14 +29,14 @@ public class BluetoothBroadcastReceiver extends BroadcastReceiver {
                 // Apagado
                 case BluetoothAdapter.STATE_OFF:
                 {
-                    btnBluetooth.setText(R.string.txtActivarBluetooth);
+                    btnBluetooth.setText(R.string.txtActivateBluetooth);
                     break;
                 }
 
                 // Encendido
                 case BluetoothAdapter.STATE_ON:
                 {
-                    btnBluetooth.setText(R.string.txtDesactivarBluetooth);
+                    btnBluetooth.setText(R.string.txtDeactivateBluetooth);
 
                     // Lanzamos un Intent de solicitud de visibilidad Bluetooth, al que añadimos un par
                     // clave-valor que indicara la duracion de este estado, en este caso 120 segundos

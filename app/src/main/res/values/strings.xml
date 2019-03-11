@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">PDM_16_RicardoGutierrez</string>
-    <string name="txtActivarBluetooth">Activar Bluetooth</string>
-    <string name="txtDesactivarBluetooth">Desactivar Bluetooth</string>
+    <string name="txtActivateBluetooth">Activar Bluetooth</string>
+    <string name="txtDeactivateBluetooth">Desactivar Bluetooth</string>
+    <string name="txtDeviceName">Nombre del dispositivo</string>
+    <string name="txtDeviceMac">Direcion MAC</string>
+    <string name="txtPariedDevices">Dipositivos vinculados</string>
+    <string name="txtAllowBluetooth">El Bluetooth se ha activado</string>
+    <string name="txtDenyBluetooth">Se ha negado el encencido del Bluetooth</string>
+    <string name="txtConnectBluetooth">Conectar a dispositivo</string>
+    <string name="txtSocketErrorCreate">Error al crear el Socket bluetooth</string>
+    <string name="txtSocketErrorClose">Error al cerrar el socket</string>
+    <string name="txtOn">On</string>
+    <string name="txtOff">Off</string>
 </resources>

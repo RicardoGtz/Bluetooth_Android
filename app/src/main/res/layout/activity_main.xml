@@ -12,9 +12,53 @@
         android:id="@+id/btnBluetoothSet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txtActivarBluetooth"
-        android:onClick="changeBluetooth"/>
+        android:text="@string/txtActivateBluetooth"
+        android:onClick="changeBluetooth"
+        android:layout_marginVertical="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp">
+        <TextView
+            android:id="@+id/txtPairedDevices"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtPariedDevices"/>
+        <Spinner
+            android:id="@+id/spinPairedDevices"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"></Spinner>
 
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBluetoothConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtConnectBluetooth"
+        android:onClick="connectBluetoothDevice"
+        android:layout_marginVertical="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtOn"
+            android:onClick="bluetoothSendOn"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtOff"
+            android:onClick="bluetoothSendOff"/>
+
+    </LinearLayout>
 
 
 
