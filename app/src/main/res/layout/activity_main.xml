@@ -9,9 +9,11 @@
     android:gravity="center">
 
     <Button
+        android:id="@+id/btnBluetoothSet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txtActivarBluetooth"/>
+        android:text="@string/txtActivarBluetooth"
+        android:onClick="changeBluetooth"/>
 
 
 
